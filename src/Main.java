@@ -18,9 +18,9 @@ public class Main {
 
             transformer.transform(new StreamSource(new File(inputFile)), new StreamResult(new File(outputFile)));
 
-            System.out.println("File JSON đã được tạo thành công.");
+            System.out.println("thành công.");
         } catch (Exception e) {
-            System.err.println("Lỗi khi chạy stylesheet XSLT: " + e.getMessage());
+            System.err.println("Lỗi");
             e.printStackTrace();
         }
 
